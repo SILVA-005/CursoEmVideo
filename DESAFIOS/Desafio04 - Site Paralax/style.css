@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+}
+
+header {
+    font-family: 'Passion One';
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding: 50px;
+}
+
+header > p {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+header a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Sriracha';
+    font-weight: bold;
+}
