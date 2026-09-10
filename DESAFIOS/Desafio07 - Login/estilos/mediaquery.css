@@ -29,6 +29,9 @@
         float: right;
         width: 70%;
     }
+    #formulario > p {
+    font-size: 2em;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -39,7 +42,7 @@
         width: 990px;
     }
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-image: url(../imagens/sidney.jfif);
@@ -47,7 +50,10 @@
         background-size: co;
     }
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+    #formulario > p {
+    font-size: 1.2em;
+}
 }
