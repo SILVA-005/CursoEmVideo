@@ -17,6 +17,7 @@
 
     #login {
         width: 90vw;
+        -ms-hyphenate-limit-zone: 280px;
     }
 
     #login > #imagem {

@@ -34,8 +34,8 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -57,21 +57,45 @@ main {
 }
 
 #formulario > p {
-    font-size: 0.8em;
+    font-size: 1em;
+    margin: 10px 0;
 }
 
 form > .campo {
+    border: 2px solid #5F2C82;
     background-color: #5F2C82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0;
 }
 
 label {
     display: none;
     font-size: 0.8em;
+}
+
+.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 6px;
+}
+
+.campo > input {
+    background-color: #53AAA7;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0;
+    padding: 4px;
+    border-radius: 8px;
+    transform: translateY(-13px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 form > input[type=submit] {
